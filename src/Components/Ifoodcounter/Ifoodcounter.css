@@ -1,0 +1,10 @@
+.button-red {
+    cursor: pointer;
+    color: red;
+}
+
+.button-red-deactive:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    color: gray;
+}
